@@ -1,5 +1,7 @@
-name = 'Sora'
-age = 22
-weight = 75.2
+name = input ('What is your name?')
+age = input ('How old are you?')
+dream = input ('What is your biggest dream?')
 
-print('Your name is', name, 'Your age is', age, 'Your weight is', weight)
+print('Nice to meet you', name)
+print('Your dream', dream,'is cool')
+print('You are', age, 'years old, huh? That is a good time to go after your dream!')
