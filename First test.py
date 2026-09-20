@@ -1,6 +1,6 @@
-name = input ('What is your name?')
-age = input ('How old are you?')
-dream = input ('What is your biggest dream?')
+name = input('What is your name?')
+age = input('How old are you?')
+dream = input('What is your biggest dream?')
 
 print(f'Nice to meet you, {name}!')
 print(f'Your dream {dream} is cool!')
