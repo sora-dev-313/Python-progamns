@@ -1,7 +1,10 @@
 name = input('What is your name?')
-age = input('How old are you?')
+age = int(input('How old are you?'))
 dream = input('What is your biggest dream?')
+savings = float(input('How much money can you save per month? R$')) 
 
 print(f'Nice to meet you, {name}!')
 print(f'Your dream {dream} is cool!')
 print(f'You are {age} years old, huh? That is a good time to go after your dream!')
+print(f'In 1 year, you will have saved R${savings * 12:.2f} and in 5 years, you will have saved R${savings * 60}.')
+print(f'And in 5 years, you will be {age + 5} years old, is still a good time to go after your dream!')
