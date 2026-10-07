@@ -1,0 +1,6 @@
+print("=" * 40)
+print("  WELCOME TO THE MARKET PROGRAM!  ")
+print("=" * 40)
+p1 = float(input('What is the price of the product you are interested in? $'))
+p2 = float(input('What is the discount rate for this product? %'))
+print(f'Final Price with {p2}% off: ${p1-(p1*p2/100):.2f}')
