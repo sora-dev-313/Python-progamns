@@ -1,0 +1,6 @@
+print('='*50)
+print('WELCOME TO THE SALARY MANAGEMENT PROGRAM')
+print('='*50)
+s1 = float(input('What is the current salary of the employee? $'))
+s2 = float(input('What is the percentage raise you want to give? %'))
+print(f'The new salary with the raise applied is: ${s1+(s1*s2/100):.2f}')
